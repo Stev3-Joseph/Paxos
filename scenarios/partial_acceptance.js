@@ -13,6 +13,7 @@ console.log("SCENARIO: PARTIAL ACCEPTANCE");
 console.log("====================");
 
 const proposer =new Proposer("P2");
+proposer.proposalNumber = 101;
 
 const acceptors = [
 
